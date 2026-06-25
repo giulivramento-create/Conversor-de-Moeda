@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "montserratB";
+    src: url(Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: "montserrat";
+    src: url(Montserrat-Medium.ttf);
+}
+
+body{
+background-image:url(bg.png);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: montserrat;
+}
+
+.geral{
+background-color: rgba(255, 255, 255, 0.116);
+padding: 30px;
+border-radius: 10px;
+}
+
+h1{
+text-align: center;
+font-family: montserratB;
+}
+
+#txtopcao{
+background-color: rgb(0, 0, 0);
+color: white;
+border: none;
+font-family: montserrat;
+padding: 10px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+#txtvalor{
+background-color: rgb(0, 0, 0);
+color: white;
+border: none;
+font-family: montserrat;
+padding: 10px;
+width: 400px;
+border-radius: 5px;
+margin-top: 5px;
+text-align: left;
+}
+
+button{
+background-color: rgb(0, 0, 0);
+color: white;
+border: none;
+font-family: montserratB;
+margin-top: 20px;
+padding: 13px 60px;
+font-size: 16pt;
+border-radius: 10px;
+opacity: 80%;
+margin-left: 95px;
+cursor: pointer;
+}
+
+.geral button:hover{
+opacity: 100%;
+transform: scale(1.1);
+transition: 0.5s;
+color: rgb(226, 185, 3);
+}
+
+.geral button:active{
+color: rgb(168, 138, 3);
+transition: 0.1s;
+}
+
+#resultado{
+margin-top: 10px;
+}
+
